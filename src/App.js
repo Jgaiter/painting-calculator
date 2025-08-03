@@ -357,7 +357,7 @@ const PaintingCalculator = () => {
         submittedAt: new Date().toISOString()
       };
 
-      const response = await fetch('https://painting-calculator-back-end.onrender.com/api', {
+      const response = await fetch('https://painting-calculator-back-end.onrender.com/api/estimates', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
