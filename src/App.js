@@ -24,8 +24,8 @@ const PaintingCalculator = () => {
   
   // Base rates per square foot
   const BASE_RATES = {
-    min: 1.5,    // Minimum base rate per sq ft
-    max: 3.5     // Maximum base rate per sq ft
+    min: 1.75,    // Minimum base rate per sq ft
+    max: 3.0     // Maximum base rate per sq ft
   };
   
   // Paint tier multipliers
